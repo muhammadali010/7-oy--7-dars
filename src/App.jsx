@@ -94,7 +94,6 @@ function App() {
 
   return (
     <div className={`app flex flex-col items-center p-6 ${themeClasses} transition duration-500`}>
-      <h1 className="text-4xl font-bold mb-6">{language === 'en' ? 'User ' : 'Пользовател'}</h1>
 
       <div className="mb-4 flex gap-6">
         <div className="flex items-center">
